@@ -26,6 +26,8 @@
 ### Postman API
 [API Collection](https://documenter.getpostman.com/view/10930876/VUxKSUAv)
 
+### ERD Design
+[https://dbdiagram.io/d/630a75cff1a9b01b0ff5861e](https://dbdiagram.io/d/630a75cff1a9b01b0ff5861e)
 
 ### Installation In Local Environment
 - Create .env file after editing this example
