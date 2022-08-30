@@ -13,17 +13,16 @@ const app = express();
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 
-app.use('/api/courses', require('./routes/coursesRoutes'));
 app.use('/api/admin', require('./routes/adminRoutes'));
 app.use('/api/users', require('./routes/userRoutes'));
 
 // Serve frontend
 if (process.env.NODE_ENV === 'production') {
-  app.use(express.static(path.join(__dirname, '../frontend/build')));
+  app.use(express.static(path.join(__dirname, '../everestminds/build')));
 
   app.get('*', (req, res) =>
     res.sendFile(
-      path.resolve(__dirname, '../', 'frontend', 'build', 'index.html')
+      path.resolve(__dirname, '../', 'everestminds', 'build', 'index.html')
     )
   );
 } else {
