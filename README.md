@@ -40,25 +40,20 @@ JWT_SECRET = "abc123"
 
 ```
 npm install
-cd everestminds
-npm install
-npm build
-cd .. 
-npm start
+cd everestminds && npm install && npm build
+cd ..  && npm start
 ```
 
-#Demo App
+##Demo App
 [https://everstminds.herokuapp.com/](https://everstminds.herokuapp.com/)
 
-#Admin Demo Account
+##Admin Demo Account
 - **Username:** everest@gmail.com
 - **Password:** 123456
 
 
-- Building Through Docker
+##Building Through Docker
 ```
 docker build -t everestminds .
 docker run --publish 5000:5000 everestminds
 ```
-
-###End
