@@ -27,7 +27,7 @@
 [API Collection](https://documenter.getpostman.com/view/10930876/VUxKSUAv)
 
 
-#Installation In Local Environment
+### Installation In Local Environment
 - Create .env file after editing this example
 ```
 NODE_ENV = "production"
@@ -44,15 +44,15 @@ cd everestminds && npm install && npm build
 cd ..  && npm start
 ```
 
-##Demo App
+### Demo App
 [https://everstminds.herokuapp.com/](https://everstminds.herokuapp.com/)
 
-##Admin Demo Account
+### Admin Demo Account
 - **Username:** everest@gmail.com
 - **Password:** 123456
 
 
-##Building Through Docker
+### Building Through Docker
 ```
 docker build -t everestminds .
 docker run --publish 5000:5000 everestminds
